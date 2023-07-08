@@ -9,7 +9,11 @@ CITY_DATA = {'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+<<<<<<< .merge_file_uACWux
+    Asks document user to specify a city, month, and day to analyze.
+=======
+    Asks refacctoring user a to  specify a city, month, and day to analyze.
+>>>>>>> .merge_file_sNZB6i
 
     Returns:
         (str) city - name of the city to analyze
@@ -20,7 +24,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city
-    # (chicago, new york city, washington).
+    # (chicago, new york city, washington). a1.a2
     # HINT: Use a while loop to handle invalid inputs
     city = ''
     while city not in ['chicago', 'new york city', 'washington']:
